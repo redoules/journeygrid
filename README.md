@@ -28,7 +28,7 @@ BeautifulSoup is a package we will use to parse the html of the webpage opened i
 
 In order to extract the estimated travel time, we need to inspect the source code of the page in find the <div> element we are interested in. In our case it is ```section-directions-trip-numbers```. In this ```<div>``` element we will then get the estimated value contained in the ```<span>``` element
 
-![Extract time from Google Maps](../images/journeygrid/extraire_temps.png)
+![Extract time from Google Maps](extraire_temps.png)
     
     
 ## The code
@@ -444,5 +444,5 @@ plt.show()
 ```
 
 
-![Final output](../images/journeygrid/output_22_0.png)
+![Final output](output_22_0.png)
 
